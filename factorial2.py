@@ -4,5 +4,5 @@ def factorial(num):
     for i in range(num,1,-1):
         fact = fact * i
     print("FACTORIAL OF {} is {}".format(num,fact))    
-
+    print("MADE BY AKHIL")
 factorial(num)
