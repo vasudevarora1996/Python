@@ -1,0 +1,37 @@
+def calculator():
+    print("PRESS 1 for Addition")
+    print("PRESS 2 for Subtraction")
+    print("PRESS 3 for Multiplication")
+    print("PRESS 4 for Division")
+    choice=int(input("\nENTER YOUR CHOICE\n"))
+    if(choice==1):
+        a=int(input("\nENTER 1st Number\n"))
+        b=int(input("\nENTER 2nd Number\n"))
+        c=a+b
+        print("ADDITION OF ",a," & ",b," is ",c)
+    elif(choice==2):
+        a=int(input("\nENTER 1st Number\n"))
+        b=int(input("\nENTER 2nd Number\n"))
+        if(a>b):
+            c=a-b
+        else:
+            c=b-a
+        print("SUBTRACTION OF ",a," & ",b," is ",c)
+    elif(choice==3):
+        a=int(input("\nENTER 1st Number\n"))
+        b=int(input("\nENTER 2nd Number\n"))
+        c=a*b
+        print("MULTIPLICATION OF ",a," & ",b," is ",c)
+    elif(choice==4):
+        a=int(input("\nENTER 1st Number\n"))
+        b=int(input("\nENTER 2nd Number\n"))
+        
+        if(a>b):
+            c=a/b
+        else:
+            c=b/a
+        print("DIVISION OF ",a," & ",b," is ",c)
+    else:
+        print("\nWRONG INPUT PROVIDED\n")
+
+calculator()
