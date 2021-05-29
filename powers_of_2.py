@@ -1,6 +1,7 @@
 #!/bin/python3
 
 """
+Powers of 2 HackerRank Problem
 Given an array of integers, determine whether each is a power of 2, where powers of 2 are [1, 2, 4, 8, 16, 32, 64, ....].
 For Each integer evaluated, append to an array a value of 1 if the number is a power of 2 or 0 otherwise.
 """
